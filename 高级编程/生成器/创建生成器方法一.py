@@ -21,7 +21,6 @@ print(next(a))
 print(next(b))
 print(next(a))
 print(next(b))
-
 print(list(a))
 print(list(b))
 

@@ -12,8 +12,8 @@ def timefun(func):
 @timefun
 def foo(*args,**kwargs):
     print(args)
-    # if kwargs:
-    print(kwargs)
+    if kwargs:
+        print(kwargs(0))
 
 foo({"name":123})
 sleep(2)
